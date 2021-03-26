@@ -1,0 +1,81 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.book-list {
+  width: 85%;
+  height: 100%;
+  padding-top: 2.5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+}
+
+.shelf {
+  width: 15%;
+  border-left: 2px solid gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: flex-start;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 30%;
+}
+
+.book {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.image {
+  width: 80%;
+}
+
+.title {
+  width: 80%;
+}
+
+.header {
+  height: 8%;
+  width: 100%;
+  color: #008b8a;
+  background-color: lightgrey;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 15px 15px -15px lightgray;
+}
+
+.search-bar {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 1%;
+}
+
+.search {
+  width: 20%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
